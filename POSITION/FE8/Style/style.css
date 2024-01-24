@@ -1,0 +1,38 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    padding: 30px;
+}
+.cantainer{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: fixed;
+}
+.cantainer div{
+    width: 200px;
+    height: 200px;
+}
+.div1{
+    background-color:  red;
+    position: relative;
+    z-index: 3;
+}
+.div2{
+   background-color: rgb(61, 13, 132);
+    position: relative;
+    z-index: 2;
+    right: 15%;
+    top: 110px;
+}
+.div3{
+    background-color:  green;
+    position: relative;
+    z-index: 1;
+    right: 30%;
+    top: 230px;
+}

@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.cantainer{
+position: relative;
+text-align: center;
+font-size: 20px;
+border: 5px solid grey;
+border-radius: 10px;
+width: 600px;
+margin: 0 auto;
+margin-top: 5px;
+text-align: justify;
+color: rgb(155, 98, 106);
+z-index: 0px;
+}
+.cantainer div{
+    margin-left: 10px;
+}
+h2 { 
+    margin-left: 30px;
+}
+.div1{
+    background-color: brown;
+    position: fixed;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    font-size: xx-large;
+}

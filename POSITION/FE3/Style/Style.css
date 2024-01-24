@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    padding: 30px;
+}
+.cantainer{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+}
+.cantainer div{
+    width: 200px;
+    height: 200px;
+}
+.div1{
+    border: 3px solid red;
+}
+.div2{
+    border: 3px solid blue;
+}
+.div3{
+    border: 3px solid green
+}
